@@ -5,6 +5,9 @@ This slider has custom styling.
 
 ![screenshot]
 
+[![NPM][npm-badge]][npm-badge-url]
+[![Build Status][travis-badge]][travis-badge-url]
+
 ## Usage
 
 ```sh
@@ -60,3 +63,7 @@ For more information on using ember-cli, visit [http://www.ember-cli.com/](http:
 
 [rangeinput]: http://jquerytools.github.io/documentation/rangeinput/index.html
 [screenshot]: screenshot.png
+[npm-badge]: https://nodei.co/npm/ember-cli-range-input.png?downloads=true&stars=true
+[npm-badge-url]: https://nodei.co/npm/ember-cli-range-input/
+[travis-badge]: https://travis-ci.org/knownasilya/ember-cli-range-input.svg
+[travis-badge-url]: https://travis-ci.org/knownasilya/ember-cli-range-input
