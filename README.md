@@ -47,3 +47,5 @@ If you'd like to submit a pull request or just run the latest code, this is how 
 * `ember build`
 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+
+[rangeinput]: http://jquerytools.github.io/documentation/rangeinput/index.html
