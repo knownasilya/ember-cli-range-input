@@ -15,7 +15,11 @@ export default Ember.Component.extend({
   }),
 
   onValueChange: observer('value', function () {
-    this.get('$range').setValue(this.get('value'));
+    var value = this.get('value');
+    var lastValue = this.get('lastValue');
+
+    this.get('$range').setValue(value);
+    this.sendAction('changed', value, lastValue);
   }),
 
   setup: on('didInsertElement', function () {
@@ -24,10 +28,12 @@ export default Ember.Component.extend({
   }),
 
   change: function () {
+    this.set('lastValue', this.get('value'));
     this.set('value', this.get('$range').getValue());
   },
 
   drag: function () {
+    this.set('lastValue', this.get('value'));
     this.set('value', this.get('$range').getValue());
   }
 });

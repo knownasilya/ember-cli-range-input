@@ -24,6 +24,14 @@ Awesomeness: {{awesomeness}}
 - `step` - Defaults to 1
 - `value` - Defaults to min if falsy and not 0
 
+## Actions
+
+```hbs
+{{range-input max=1 step=0.05 value=layer.opacity changed='layerOpacityUpdated'}}
+```
+
+- `changed` - Takes the following signature `function (currentValue, previousValue) {}`
+
 ## Contributing
 
 If you'd like to submit a pull request or just run the latest code, this is how you do it.
