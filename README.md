@@ -5,7 +5,7 @@ This slider has custom styling.
 
 ![screenshot]
 
-[![NPM][npm-badge]][npm-badge-url]
+[![NPM][npm-badge]][npm-badge-url]  
 [![Build Status][travis-badge]][travis-badge-url]
 
 ## Usage
