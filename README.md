@@ -15,7 +15,7 @@ ember install:addon ember-cli-range-input
 ```
 
 ```hbs
-{{range-input min=0 max=1 step=0.1 value=awesomeness}}
+{{range-input min=0 max=5 step=1 value=awesomeness}}
 
 Awesomeness: {{awesomeness}}
 ```
@@ -27,10 +27,12 @@ Awesomeness: {{awesomeness}}
 - `step` - Defaults to 1
 - `value` - Defaults to min if falsy and not 0
 
+_Note: If using a decimal/float in any of the values, be sure to use a string, e.g. '0.05'._
+
 ## Actions
 
 ```hbs
-{{range-input max=1 step=0.05 value=layer.opacity changed='layerOpacityUpdated'}}
+{{range-input max=1 step='0.05' value=layer.opacity changed='layerOpacityUpdated'}}
 ```
 
 - `changed` - Takes the following signature `function (currentValue, previousValue) {}`
