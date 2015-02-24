@@ -1,8 +1,32 @@
-# Ember-cli-range-input
+# ember-cli-range-input
 
-This README outlines the details of collaborating on this Ember addon.
+Range slider input which uses [jQuery Tools RangeInput][rangeinput] library behind the scenes.
+This slider has custom styling.
 
-## Installation
+## Usage
+
+```sh
+ember install:addon ember-cli-range-input
+```
+
+```hbs
+{{range-input min=0 max=1 step=0.1 value=awesomeness}}
+
+Awesomeness: {{awesomeness}}
+```
+
+## Attributes
+
+- `min` - Defaults to 0
+- `max` - Defaults to 10
+- `step` - Defaults to 1
+- `value` - Defaults to min if falsy and not 0
+
+## Contributing
+
+If you'd like to submit a pull request or just run the latest code, this is how you do it.
+
+### Installation
 
 * `git clone` this repository
 * `npm install`

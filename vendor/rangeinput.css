@@ -1,0 +1,40 @@
+.slider {
+  position: relative;
+  height: 0.6em;
+  width: 98%;
+  min-width: 221px;
+  cursor: pointer;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  margin: 0.4em auto;
+  padding: 0 0.5em;
+}
+
+.slider .handle {
+  background-color: #b3b3b3;
+  height: 1em;
+  width: 1.7em;
+  position: absolute;
+  top: -3px;
+  display: block;
+  cursor: pointer;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  margin: 0 0 0 0.5em;
+  color: #666;
+  padding: 0;
+}
+
+.slider .progress {
+  width: 100%;
+  display: block;
+  height: 0.6em;
+  background-color: #888;
+  background-image: none;
+}
+
+input[type='text'].range.range-original {
+  display: none !important;
+}
