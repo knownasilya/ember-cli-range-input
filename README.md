@@ -3,6 +3,8 @@
 Range slider input which uses [jQuery Tools RangeInput][rangeinput] library behind the scenes.
 This slider has custom styling.
 
+![screenshot]
+
 ## Usage
 
 ```sh
@@ -49,3 +51,4 @@ If you'd like to submit a pull request or just run the latest code, this is how 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
 
 [rangeinput]: http://jquerytools.github.io/documentation/rangeinput/index.html
+[screenshot]: screenshot.png
