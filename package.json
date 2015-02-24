@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-range-input",
   "version": "0.2.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Range Slider component backed by jQueryTool's rangeinput",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,14 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:knownasilya/ember-cli-range-input.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Ilya Radchenko <ilya@burstcreations.com>",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.0",
