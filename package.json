@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-range-input",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Range Slider component backed by jQueryTool's rangeinput",
   "directories": {
     "doc": "doc",
