@@ -1,4 +1,4 @@
-.slider {
+.range-input .slider {
   position: relative;
   height: 0.6em;
   width: 98%;
@@ -11,7 +11,7 @@
   padding: 0 0.5em;
 }
 
-.slider .handle {
+.range-input .slider .handle {
   background-color: #b3b3b3;
   height: 1em;
   width: 1.7em;
@@ -27,7 +27,7 @@
   padding: 0;
 }
 
-.slider .progress {
+.range-input .slider .progress {
   width: 100%;
   display: block;
   height: 0.6em;
@@ -35,6 +35,6 @@
   background-image: none;
 }
 
-input[type='text'].range.range-original {
+.range-input input[type='text'].range.range-original {
   display: none !important;
 }
