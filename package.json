@@ -37,8 +37,8 @@
     "express": "^4.8.5",
     "glob": "^4.0.5"
   },
-  "dependencies" : {
-    "ember-cli-babel": "^6.6.0"        
+  "dependencies": {
+    "ember-cli-babel": "^6.6.0"
   },
   "keywords": [
     "ember-addon",

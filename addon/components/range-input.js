@@ -23,10 +23,10 @@ export default Ember.Component.extend({
   }),
 
   setup: on('didInsertElement', function () {
-    this.$().find('.range-original').rangeinput({
+    this.element.addEventListener('.range-original').rangeinput({
       value: this.get('value')
     });
-    this.set('$range', this.$().find(':range').data('rangeinput'));
+    this.set('$range', this.element.addEventListener(':range').data('rangeinput'));
   }),
 
   change: function () {
